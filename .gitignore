@@ -2,6 +2,5 @@ reddit_scraper/Downloads
 reddit_scraper/subreddits.txt
 .vscode
 RedditScraper
-reddit_scraper/praw.ini
 reddit_scraper/tests.py
 reddit_scraper/Test attributes

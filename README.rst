@@ -39,7 +39,7 @@ what order you put them in, the program sorts it alphabetically later. You can t
 
 .. code-block:: bash
 
-    python main.py
+    python main.py None
 
-If you want a limit to how many posts it scrapes, you can specify an integer after main.py. You can also add -sort afterwards if your downloaded 
+If you want a limit to how many posts it scrapes, you can replace ``None`` with an integer. You can also add -sort afterwards if your downloaded 
 content has incorrect indexes and you want it fixed.

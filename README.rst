@@ -12,7 +12,7 @@ I was bored. Special thanks to PRAW for doing the heavy work!
 Installation
 ------------
 
-Before using, you need to install all the required python packages like so:
+Clone this repository. Then, install all the required python packages like so:
 
 .. code-block:: bash
 

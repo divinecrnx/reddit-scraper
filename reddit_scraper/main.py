@@ -246,7 +246,13 @@ if __name__ == "__main__":
 
             for file in files:
                 
-                f_name = file.split(" - ")[1]
+                temp = file.split(" - ")
+
+                if len(temp) == 2:
+                    f_name = temp[1]
+                else:
+                    f_name = temp[1] + " - " + temp[-1]
+
                 out_name = str(sentinel) + " - " + f_name
                 
                 try:
